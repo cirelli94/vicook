@@ -1,0 +1,31 @@
+{
+  "name": "vicook",
+  "version": "0.0.2",
+  "description": "Get vicook grassobbio menu list of the day",
+  "main": "vicook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cirelli94/vicook.git"
+  },
+  "keywords": [
+    "vicook",
+    "grassobbio",
+    "menu"
+  ],
+  "author": "Fabrizio Cirelli",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/cirelli94/vicook/issues"
+  },
+  "homepage": "https://github.com/cirelli94/vicook#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  },
+  "bin": {
+    "vicook": "./bin/vicook"
+  }
+}
