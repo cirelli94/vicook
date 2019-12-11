@@ -1,6 +1,6 @@
 {
   "name": "vicook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get vicook grassobbio menu list of the day",
   "main": "vicook.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/cirelli94/vicook#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "commander": "^4.0.1",
     "request": "^2.88.0"
   },
   "bin": {
