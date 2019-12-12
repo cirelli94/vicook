@@ -3,12 +3,15 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const program = require("commander");
+const fs = require('fs');
 
-program.version("0.0.3");
+var packageInfo = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
+program.version(packageInfo.version);
 
 program.option("-t, --tomorrow", "show tomorrow menu");
 
 program.parse(process.argv);
+
 
 
 const url = "https://grassobbio.vicookcloud.it/menu/";
