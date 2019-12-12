@@ -1,5 +1,5 @@
 # Vicook
-Sometimes you want to know what you'll eat for launch. Sometimes not.
+Sometimes you want to know what you'll eat for lunch. Sometimes not.
 This is for when you want to know.
 
 ## Install
