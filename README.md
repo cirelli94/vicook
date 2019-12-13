@@ -8,7 +8,7 @@ This is for when you want to know.
 * Run `vicook`
 
 ## Update
-*  npm update -g vicook
+*  `npm update -g vicook`
 
 ## Options
 * ` -t, --tomorrow ` show tomorrow menu

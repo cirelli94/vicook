@@ -1,6 +1,6 @@
 {
   "name": "vicook",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Get vicook grassobbio menu list of the day",
   "main": "vicook.js",
   "scripts": {

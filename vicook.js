@@ -3,10 +3,8 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const program = require("commander");
-const fs = require('fs');
 
-var packageInfo = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
-program.version(packageInfo.version);
+program.version("0.0.5");
 
 program.option("-t, --tomorrow", "show tomorrow menu");
 
