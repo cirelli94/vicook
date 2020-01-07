@@ -19,7 +19,7 @@ if (!program.tomorrow) {
     //Today
     request(url + epoch, function (error, response, body) {
         const $ = cheerio.load(body);
-        logDate("OGGI", $);
+        logDate("=== OGGI ===", $);
         logMenu($);
     });
 } else {
@@ -27,7 +27,7 @@ if (!program.tomorrow) {
     epoch += (24 * 60 * 60);
     request(url + epoch, function (error, response, body) {
         const $ = cheerio.load(body);
-        logDate("DOMANI", $);
+        logDate("== DOMANI ==", $);
         logMenu($);
     });
 }
@@ -40,7 +40,7 @@ function logMenu($) {
 }
 
 function logDate(text, $) {
-    console.log("=== " + text + " ===")
+    console.log(text)
     console.log(capitalizeFirstLetter($("h2.second")[0].firstChild.data))
     console.log("============")
 }
